@@ -1,0 +1,505 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100% !important;
+    overflow-x: hidden !important;
+}
+.row
+{
+    width: 100% !important;
+}
+@font-face {
+    font-family: 'Roca';
+    src: url(fonts/roca-one-bold.ttf);
+}
+.HeadingMain{
+    font-family: 'Roca';
+    font-size: 120px;
+}
+/* .imgdivE img{
+    height: 80px;
+    max-height: 100px !important;
+} */
+.HeadingMain2{
+    font-family: 'Roca';
+    font-size: 70px;
+    color: #FFFFFF;
+    margin-left: 15%;
+   
+}
+.subHeading3{
+    font-family: 'DM Sans';
+    font-size: 27px;
+    color: #0D0149;
+    margin-left: 15%;
+}
+.HeadingMain3{
+    font-family: 'Roca';
+    font-size: 68px;
+    color: #343CFF;
+}
+.marginleft1{
+ margin-left: 8%;
+}
+.paddingLeft{
+    padding-left: 16%;
+}
+.subHeading{
+    font-family: 'Roca';
+    font-size: 65px !important;
+}
+.imgdiv{
+    height: 34%;
+}
+.subHeading2{
+    font-family: 'DM Sans';
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.blue_bckg{
+    background-color:#343CFF ;
+    font-family: 'Roca';
+    font-size: 24px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 2%;
+}
+
+/* .imgPage4 img{
+    width: 90%;
+} */
+a.button_big {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Inherit color from the parent or class */
+}
+.desk{
+    display: block;
+}
+.button_big {
+    background: transparent;
+    color: #fff;
+    padding: 10px 36px;
+    border: 2px solid white;
+    border-radius: 20px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+}
+
+.button_big:hover {
+    background: #343CFF; /* Change to the desired background color on hover */
+    color: #fff; /* to the desired text color on hover */
+}
+.page1 {
+    height: 100vh !important;
+    width: 100vw  !important;
+    /* border: 2px solid red; */
+    /* background: url('../assets/Payments/dotsbg.png');
+    background-size: 200%; */
+    background-color: #0D0149;
+    color: #fff;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; Horizontally centers the content */
+    align-items: center;
+    padding-top: 3%;     
+}
+
+.custom-hr 
+{
+height: 2px;
+background-color: #EFECFF;
+width: 40%;
+margin-top: 0%;
+display:block;
+height:3px;
+background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background:  linear-gradient(to right, rgba(30,87,153,0) 0%, rgba(242, 242, 242, 1) 50%, rgba(242, 242, 242, 1) 51%, rgba(225,228,226,0) 99%, rgba(229,229,229,0) 100%);/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+margin-left: auto;
+margin-right: auto;
+
+}
+.mobile{
+    display: none;
+}
+.page9 {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #0D0149;
+    color: #fff;
+    /* Flexbox properties */
+       /* Vertically centers the content */
+}
+.small_btn{
+    background-color: #343CFF;
+    border: none;
+    color: #fff;
+    padding: 12px 20px;
+    margin-left: 50%;
+    border-radius: 15px;
+    text-transform: uppercase;
+
+}
+.page10 {
+    padding-top: 6%;
+    width: 100vw;
+    padding-bottom: 7%;
+    /* border: 2px solid red; */
+    background-color: #0D0149;
+    color: #fff;
+    /* Flexbox properties */
+       /* Vertically centers the content */
+}
+.page3{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #F2F2F2;
+    color: #fff;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;/* Horizontally centers the content */
+    align-items: center; 
+    padding-top: 10%;  
+    font-size: 60px; 
+}
+.page2{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background: linear-gradient(90deg, #4f8bff, #8f38dd);
+    color: #0D0149;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+.page4{
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #0D0149;
+    color: #fff;
+    /* Flexbox properties */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.page4heading
+{
+    font-family: 'Roca';
+    font-size: 90px;
+}
+.page5{
+    
+    /* border: 2px solid red; */
+    background-color: #9F8BFF;
+    padding-top: 6%;
+    color: #fff;
+    padding-bottom: 5%;
+    /* max-width: 100vw !important; */
+
+}
+.page5text
+{
+    font-size: 120px;
+    color: #0D0149;
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Roca One';
+    font-weight: 1000;
+    line-height: 0.8; /* Adjust this value to decrease line spacing */
+
+}
+.curv
+{
+    border-radius: 100px 0 0 100px; 
+    margin-left: 2% !important;
+}
+.images img{
+    width: 70%;
+    margin-top: 30%;
+    margin-left: 25%;
+}
+.images p{
+    padding-bottom: 5%;
+}
+.images h4{
+    padding-top: 5%;
+}
+.even
+{
+    color: #0D0149;
+}
+.page8{
+    background-color: #9F8BFF;
+    color: #fff;
+    width: 100vw;
+   padding-bottom: 6%;
+}
+.box{
+    background-color: #0D0149;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    font-family: 'DM Sans';
+    font-size: 18.8px;
+}
+.page8 p{
+    font-family: 'DM Sans';
+    font-size: 16px;
+}
+
+.page6{
+    background-image: url('../assets/page6.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    
+    /* position: relative; */
+}
+.page7 {
+    height: 100vh;
+    width: 100vw;
+    /* border: 2px solid red; */
+    background-color: #0D0149;
+    color: #fff;
+    /* Flexbox properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Horizontally centers the content */
+    align-items: center;     /* Vertically centers the content */
+}
+.page6Heading{
+    /* position: absolute; */
+    /* bottom: 0; */
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding-top:17%;
+    padding-left: 2%;
+    color: #ffff !important;
+    /* align-items:flex-end; */
+}
+
+.purple{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.leftSidePage5{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* margin-left: 2%; */
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+.purple h4{
+    font-family: 'Roca';
+    font-size: 20px;
+    margin-left: 6%;
+    color: #0D0149;
+}
+.purple p{
+    font-family: 'DM Sans';
+    font-size: 17px;
+    margin-left: 6%;
+}
+.FintechCards{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'DM Sans';
+    font-size: 17px;
+}
+.cardFintech1{
+    margin-right: 2%;
+    background-color: #EFECFF;
+    color: #0D0149;
+    padding-bottom: 1%;
+    border-radius: 20px;
+
+}
+.cardFintech3{
+    margin-left: 2%;
+    background-color: #EFECFF;
+    color: #0D0149;
+    border-radius: 20px;
+    
+    padding-bottom: 1%;
+}
+.cardFintech2{
+    margin-right: 2%;
+    margin-left: 2%;
+    border-radius: 20px;
+    border: 2px solid #ffff;
+    padding-bottom: 1%;
+}
+@media only screen and (max-width: 576px){
+    .desk{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+    .page1{
+        max-width: 100%;
+        height: fit-content !important;
+        padding-top: 20%;
+        padding-bottom: 20%;
+    }
+
+    .page2{
+        height: fit-content !important;
+        width: 100vw;
+        /* border: 2px solid red; */
+        background: linear-gradient(90deg, #F2F2F2, #8F8F8F);
+        color: #fff;
+        /* Flexbox properties */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Horizontally centers the content */
+        align-items: center;
+    }
+    .page3{
+        height: fit-content !important;
+        width: 100vw;
+        /* border: 2px solid red; */
+        background-color: #F2F2F2;
+        color: #fff;
+        /* Flexbox properties */
+            
+    }
+    .page4{
+        height: fit-content !important;
+        width: 100vw;
+        /* border: 2px solid red; */
+        background-color: #0D0149;
+        color: #fff;
+        /* Flexbox properties */
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; */
+    }
+    .blue_bckg{
+        background-color:#343CFF ;
+        font-family: 'Roca';
+        font-size: 16px;
+        text-align: center;
+        border-radius: 12px;
+        padding: 4%;
+    }
+    .subHeading{
+        font-family: 'Roca';
+        font-size: 24px;
+        color: #fff;
+    }
+    .subHeading2{
+        /* font-family: 'Roca';
+        font-size: 20px; */
+        color: #fff;
+    }
+    .HeadingMain{
+        font-family: 'Roca';
+        font-size: 36px;
+    }
+    .HeadingMain2{
+        font-family: 'Roca';
+        font-size: 32px;
+        color: #343CFF;
+       
+    }
+    .button_big {
+        background: transparent;
+        color: #fff;
+        padding: 10px 8px;
+        font-size: 8px;
+        border: 2px solid white;
+        border-radius: 20px;
+        transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effect */
+    }
+    .purple h4{
+        font-family: 'Roca';
+        font-size: 15px;
+        margin-left: 6%;
+        color: #0D0149;
+    }
+    .purple p{
+        font-family: 'DM Sans';
+        font-size: 11px;
+        margin-left: 6%;
+    }
+    .page6{
+        background-image: url('../assets/fintech/10.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: fit-content;
+        /* height: 100vh; */
+        /* width: 100vw; */
+        /* position: relative; */
+    }
+    .page6E{
+        background-image: url('../assets/Equities/page6.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: fit-content;
+        /* height: 100vh; */
+        /* width: 100vw; */
+        /* position: relative; */
+    }
+    
+    .page6EHeading{
+        /* position: absolute; */
+        /* bottom: 0; */
+        padding-top: 10%;
+        padding-bottom: 90vh !important;
+        display: block;
+        justify-content: flex-end;
+        flex-direction: column;
+        height: 100%;
+        color: #ffff !important;
+        padding-bottom: 2%;
+        /* align-items:flex-end; */
+    }
+    .page6Heading{
+        /* position: absolute; */
+        /* bottom: 0; */
+        padding-top: 100%;
+        display: block;
+        justify-content: flex-end;
+        flex-direction: column;
+        height: 100%;
+        color: #ffff !important;
+        padding-bottom: 2%;
+        /* align-items:flex-end; */
+    }
+    .page7 {
+        height:fit-content;
+        width: 100vw;
+        /* border: 2px solid red; */
+        background-color: #0D0149;
+        color: #fff;
+        /* Flexbox properties */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Horizontally centers the content */
+        align-items: center;     /* Vertically centers the content */
+    }
+    .imgPage4 img{
+        width: 100%;
+    }
+    
+    .button_big:hover {
+        background: #343CFF; /* Change to the desired background color on hover */
+        /* color: #000; Change to the desired text color on hover */
+    }
+}
